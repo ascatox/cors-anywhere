@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-docker build -f Dockerfile -t interq/cors-anywhere .
+docker buildx build --platform linux/amd64 -f Dockerfile -t interq/cors-anywhere .
